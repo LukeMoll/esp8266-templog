@@ -1,7 +1,7 @@
 from bottle import route, post, run, request
 from datetime import datetime
 def main():
-    run(host='0.0.0.0', port=8080, debug=True)
+    run(host='0.0.0.0', port=8266, debug=False)
 
 @route('/')
 def root():
